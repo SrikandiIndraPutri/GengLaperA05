@@ -1,0 +1,214 @@
+/*  Warna untuk WEB
+    Merah: #BC1823
+    Abu2 Muda: #EFEFEF
+    Putih: #FFFFFF
+    Hitam: #010101
+    Kuning:#FFC108                      */
+/*----------------------------------------------------------*/
+/* untuk menggunakan font yang telah di unduh */
+/* Filenya jadi satu sama folder web*/
+@font-face {
+    font-family:"Telegraf";
+    src: url('Telegraf-Regular-400.otf') format('opentype');
+}
+
+@font-face {
+    font-family:"Telegraf-bold";
+    src: url('Telegraf-UltraBold-800.otf') format('opentype');
+}
+
+body{
+    margin:0;
+}
+
+/* space untuk header */
+.containter{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color:#EFEFEF;
+    position:fixed;
+    top:0;
+    z-index:10;
+    font-family:"Telegraf-bold", sans-serif, classic;
+}
+
+li {
+list-style:none;
+}
+
+.logo{
+    width:160px;
+    padding-left:5px;
+    padding-bottom:2px;
+}
+
+.headerlogo{
+    float:left;
+}
+
+.headerlist{
+    float:right;
+}
+
+header li{
+    float:left;
+    padding:10px 20px;
+    font-size:18px;
+}
+
+header ul{
+    padding-right:33px;
+}
+
+.about{
+    color: #010101;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.about:hover{
+    color:#FFC108;
+    opacity:0.7;
+}
+
+.contact{
+    color: #010101;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.contact:hover{
+    color:#FFC108;
+    opacity:0.7;
+}
+
+
+/* space untuk main */
+main {
+    height: 500px;
+    width: 100%; 
+    background-color:#EFEFEF;
+    color:#010101;
+    font-family: "Telegraf-bold", sans-serif, classic;
+    z-index:7;
+}
+
+.heading{
+    padding-top:90px;
+    text-align: center;
+}
+
+.heading h1{
+    font-size:40px;
+    margin-bottom:-15px;
+}
+
+.heading h3{
+    font-family: "Telegraf", sans-serif, classic;
+    font-size:18px;
+}
+/* menu */
+.menu {
+    float: left;
+    width: 25%;
+    padding:20px 0px 20px 20px;
+  }
+
+.menus {
+    padding-left:17%;
+}
+
+.menu-icon {
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+    background-color:#ffffff;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    margin-right: 30px;
+  }
+
+.menu-icon img{
+    padding:60px 16px 60px 14px;
+    height:150px;
+}
+
+
+.menu-icon p {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    color:black;
+    font-family:"Telegraf-bold", sans-serif, classic;
+}
+
+.message-wrapper {
+    margin-left: 537px;
+    clear:left;
+    padding-top:40px;
+}
+
+.message {
+    padding: 20px 20px;
+    background-color: WHITE;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 6px #010101;
+    font-size: 16px;
+    font-family:"Telegraf-bold", sans-serif, classic;
+}
+
+.message:active {
+    box-shadow:none;
+    position: relative;
+    top: 7px;
+}
+
+/* space untuk footer */
+footer{
+    height: 250px;
+    width: 100%;
+    background-color:#BC1823;
+    color:#ffffff;
+    letter-spacing:0.5px;
+    font-family:"Telegraf", sans-serif, classic;
+}
+
+footer .container{
+    padding: 35px 55px 15px 9px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height:19px;
+    opacity:0.9;
+}
+
+.selected{
+    font-family:"Telegraf-bold", sans-serif, classic;
+}
+
+.footer-left{
+    float:left;
+}
+
+.footer-right{
+    float:right;
+    text-align:right;
+}
+
+.footer-left:hover{
+    color:#010101;
+    opacity:0.8;
+    transition: all 0.3s;
+}
+
+.footer-right:hover{
+    color:#010101;
+    opacity:0.8;
+    transition: all 0.3s;
+}

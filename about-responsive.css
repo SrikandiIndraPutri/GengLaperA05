@@ -1,0 +1,18 @@
+@import "responsive.css";
+
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+    main{
+        height:415px;
+    }
+
+    .message-wrapper{
+        margin-left:439px;
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+    .message-wrapper{
+        margin-left:182px;
+    }
+}
