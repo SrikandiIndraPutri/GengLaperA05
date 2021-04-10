@@ -1,0 +1,15 @@
+@import "stylesheet.css";
+
+.line{
+    padding-top:100px;
+    font-family:"Telegraf-bold", sans-serif, classic;
+    text-align:center;
+}
+
+main{
+    height:344.5px;
+}
+
+.message-wrapper{
+    margin-left:577px;
+}
